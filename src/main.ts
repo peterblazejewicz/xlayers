@@ -5,8 +5,9 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 import { hmrBootstrap } from './hmr';
+import { Gtag } from 'gtag.js';
 
-declare var gtag;
+declare var gtag: Gtag;
 
 if (environment.production) {
   enableProdMode();

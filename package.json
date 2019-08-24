@@ -88,6 +88,7 @@
     "@commitlint/config-conventional": "^7.5.0",
     "@ngxs/devtools-plugin": "^3.4.1",
     "@ngxs/logger-plugin": "^3.4.1",
+    "@types/gtag.js": "^0.0.3",
     "@types/highlight.js": "^9.12.3",
     "@types/node": "~11.9.2",
     "@types/sketchapp": "^1.0.3",

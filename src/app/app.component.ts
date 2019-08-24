@@ -4,8 +4,9 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
+import { Gtag } from 'gtag.js';
 
-declare var gtag;
+declare var gtag: Gtag;
 
 @Component({
   selector: 'xly-root',

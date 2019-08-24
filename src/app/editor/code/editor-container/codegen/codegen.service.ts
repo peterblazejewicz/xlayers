@@ -10,9 +10,9 @@ import { Store } from '@ngxs/store';
 import { UiState } from '@app/core/state';
 import { environment } from '@env/environment.hmr';
 import { CodeGenSettings } from '@app/core/state/page.state';
+import { Gtag } from 'gtag.js';
 
-
-declare var gtag;
+declare var gtag: Gtag;
 
 export interface XlayersNgxEditorModel {
   kind: 'angular' | 'react' | 'vue' | 'wc' | 'stencil' | 'litElement' |'html' | 'text' | 'xamarinForms';
